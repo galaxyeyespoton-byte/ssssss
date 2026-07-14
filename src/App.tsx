@@ -33,11 +33,11 @@ interface AdSenseConfig {
 }
 
 const DEFAULT_ADSENSE: AdSenseConfig = {
-  publisherId: "", // 예: ca-pub-XXXXXXXXXXXXXXXX
-  slotTop: "",     // 예: 1234567890
-  slotResult: "",
+  publisherId: "ca-pub-2484423746725349", // 연동된 구글 애드센스 게시자 ID
+  slotTop: "8472935213",     // 상단 기본형 광고 슬롯 예시 ID (필요시 교체 가능)
+  slotResult: "2837492104",  // 변환 완료창 네이티브형 광고 슬롯 예시 ID
   slotSidebar: "",
-  enabled: false,
+  enabled: true,             // 기본적으로 애드센스 연동 상태를 활성화합니다.
 };
 
 declare global {
