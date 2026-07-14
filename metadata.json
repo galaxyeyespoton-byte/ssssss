@@ -1,0 +1,6 @@
+{
+  "name": "릴스 MP3 변환기 - REEL to MP3",
+  "description": "영상을 업로드하여 브라우저에서 바로 고음질 MP3로 변환하는 수익형 웹 서비스입니다. 구글 애드센스(Google AdSense) 광고 슬롯 연동 기능과 세련된 어두운 테마를 제공합니다.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
